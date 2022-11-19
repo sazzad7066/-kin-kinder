@@ -1,0 +1,312 @@
+/*common code start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mx-20{
+    margin: 0px 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+/*common code end*/
+/*nav code start*/
+nav{
+    background: #F8F9FA;
+}
+.nav-inner{
+    clear: both;
+    overflow: hidden;
+}
+/*logo code start*/
+.nav-inner .logo{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.nav-inner .logo a{
+    color: #17a2b8;
+    font-size: 50px;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display:inline-block;
+    text-decoration: none;
+}
+.nav-inner .logo a .fa-solid{
+    color: #000203;
+}
+.nav-inner .logo a:hover{
+    color: #17a2b8;
+    font-size: 50px;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+/*logo code end*/
+/*navber code start*/
+.nav-inner .navber{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.nav-inner .navber ul{
+    text-align: center;
+}
+.nav-inner .navber ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-inner .navber ul li a{
+    color: #000203;
+    font-size: 16px;
+    font-weight: 800;
+    font-family:Nunito, sans-serif ;
+    margin: 0px 10px;
+    padding: 30px 15px;
+    text-decoration: none;
+    transition: 0.5 all;
+    display: inline-block;
+}
+.nav-inner .navber ul li a.active{
+    color: #17a2b8;
+}
+.nav-inner .navber ul li a:hover{
+color: #17a2b8;
+}
+/*navber code end*/
+/* joint button code start*/
+.nav-inner .joining-button{
+    width: 15%;
+    height: 100%;
+    float: left;
+    padding: 20px 20px;
+}
+.nav-inner .joining-button a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:Nunito, sans-serif ;
+    margin: 0px 15px;
+    padding: 10px 20px;
+    background: #17A2B8;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.5 all;
+    display: inline-block;
+}
+.nav-inner .joining-button a:hover{
+    color: #fff;
+    background: #138496;
+    }
+/* joint button code end*/
+/*nav code end*/
+/*header code start*/
+header{
+background: #17A2B8;
+}
+.header-inner{
+    clear: both;
+    overflow: hidden;
+}
+/*header contant start*/
+.header-contant{
+    float: left;
+    width: 50%;
+    padding: 100px 0px;
+}
+.header-contant h1{
+    color: #fff;
+    font-size: 24px;
+    font-family: Handlee, cursive;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.header-contant h3{
+    color: #fff;
+    font-size: 70px;
+    margin: 20px 0px 0px 0px;
+    font-family: Handlee, cursive;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.header-contant p{
+    color: #fff;
+    font-size: 16px;
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    margin: 20px 0px 0px 0px;
+    line-height: 1.5;
+}
+.header-inner .header-contant a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:Nunito, sans-serif ;
+    margin: 0px 15px;
+    padding: 10px 20px;
+    background: #343a40;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.5 all;
+    margin: 20px 0px 0px 0px;
+    display: inline-block;
+}
+.header-inner .header-contant a:hover{
+    color: #fff;
+    background: #138496;
+}
+/*header contant end*/
+.header-banner{
+    float: left;
+    width: 50%;
+}
+.header-banner img{
+    width: 100%;
+    display: block;
+    margin: 30px 0px 0px 0px;
+}
+/*header code end*/
+/*service section start*/
+.service-section{
+padding: 80px 0px;
+}
+.service-inner{
+    clear: both;
+    overflow: hidden;
+}
+.service-blog{
+    float: left;
+    height: 100%;
+    background-color: #F8F9FA;
+    box-shadow: 0px 0px 1px #c2c2c2;
+    border-radius: 20px;
+    padding: 30px;
+    width: 30%;
+    margin-top: 5px;
+}
+.service-blog-icon{
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+.service-blog-icon i{
+    color: #17a2b8;
+}
+.service-blog-contant{
+    float: left;
+    height: 100%;
+    background: #F8F9FA;
+    width: 70%;
+}
+.service-blog-contant h2{
+    color: #00394f;
+    font-size: 24px;
+    font-family: Handlee, cursive;
+    font-weight: 700;
+}
+.service-blog-contant p{
+    color: #666666;
+    font-size: 16px;
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+}
+/*service section end*/
+/*about us section start*/
+.about-us section{
+padding: 80px 0px;
+}
+.about-inner{
+    clear: both;
+    overflow: hidden;
+}
+.about-inner .about-poster{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.about-inner .about-poster img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.about-inner .about-content{
+    width: 60%;
+    height: 100%;
+    float: left;
+    margin: 50px 0px 0px 0px;
+}
+.about-inner .about-content h3{
+    color:#17a2b8;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Nunito, sans-serif;
+    line-height: 1.5;
+}
+.about-inner .about-content h2{
+    color: #00394f;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Handlee, cursive;
+    line-height: 1.8;
+}
+.about-inner .about-content p{
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Nunito, sans-serif;
+    line-height: 20px;
+}
+.about-inner .about-content a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:Nunito, sans-serif ;
+    margin: 0px 15px;
+    padding: 10px 20px;
+    background: #17A2B8;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.5 all;
+    margin: 20px 0px 0px 0px;
+    display: inline-block;
+}
+/*about conent-inner start*/
+.about-content{
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding: 30px;
+}
+.about-content-inner{
+    clear: both;
+    overflow: hidden;
+}
+.about-content-poster{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.about-content-poster img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.about-content-content2 ul{
+ padding: 20px 0px;
+}
+.about-content-content2 ul li{
+    list-style: none;
+}
+/*about conent-inner end*/
+.about-inner .about-content a:hover{
+    color: #fff;
+    background: #138496;
+}
+/*about us section end*/
