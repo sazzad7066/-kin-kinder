@@ -219,7 +219,10 @@ padding: 80px 0px;
 /*service section end*/
 /*about us section start*/
 .about-us section{
-padding: 80px 0px;
+padding: 50px 0px;
+}
+section.about-us.section {
+    margin-top: -60px;
 }
 .about-inner{
     clear: both;
@@ -286,23 +289,38 @@ padding: 80px 0px;
 .about-content-inner{
     clear: both;
     overflow: hidden;
+    margin-top: 20px;
 }
+/*about conent poster start*/
 .about-content-poster{
     width: 40%;
     height: 100%;
     float: left;
 }
-.about-content-poster img{
+.about-inner .about-poster img{
     width: 100%;
     height: 100%;
     display: block;
-    border-radius: 10px;
+    border-radius: 20px;
 }
-.about-content-content2 ul{
- padding: 20px 0px;
+/*about conent poster end*/
+.about-content-inner-content ul{
+    display: inline-block;
+    margin: 0px 0px 0px 40px;
 }
-.about-content-content2 ul li{
+.about-content-inner-content ul li{
+    color: #666666;
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
     list-style: none;
+    border-bottom: 1px solid #666666;
+    border-top: 1px solid #666666;
+}
+.about-content-inner-content ul li i{
+    color: #17a2b8;
 }
 /*about conent-inner end*/
 .about-inner .about-content a:hover{
@@ -310,3 +328,44 @@ padding: 80px 0px;
     background: #138496;
 }
 /*about us section end*/
+/*classes secton start*/
+.classes-section{
+    padding: 80px 0px;
+}
+.classes-inner{
+clear: both;
+overflow: hidden;
+}
+.classes-kids{
+    text-align: center;
+}
+.classes-inner h6{
+    color: #17a2b8;
+    font: 16px;
+    font-weight: 400;
+    font-family: Nunito, sans-serif;
+    line-height: 24px;
+}
+.classes-inner h2{
+    color: #00394f;
+    font: 40px;
+    font-weight: 800;
+    font-family: Handlee, cursive;
+    line-height: 3;
+}
+.classes-inner-class{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.classes-inner-class2{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.classes-inner-class3{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+/*classes secton end*/
