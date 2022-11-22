@@ -657,6 +657,7 @@ footer{
     width: 25%;
     height: 100%;
     float: left;
+    padding: 20px;
 }
 .footer-content a{
     color: #fff;
@@ -680,4 +681,103 @@ footer{
     font-weight: 400;
     margin: 20px 0px 0px 0px;
     line-height: 1.5;
+}
+/*footer touch start*/
+.footer-touch{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+    
+    margin: 30px 0px 0px 10px;
+}
+.footer-touch h2{
+    color: #17a2b8;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Handlee, cursive;
+}
+.footer-touch h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Nunito, sans-serif;
+    line-height: 1.5;
+    display: inline-block;
+    padding: 14px
+}
+.footer-touch i{
+    color:#17a2b8;
+}
+/*footer touch end*/
+.footer-link{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+    margin: 30px 0px 0px 0px;
+}
+.footer-link h2{
+    color: #17a2b8;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Handlee, cursive;
+}
+.footer-link ul{
+   
+}
+.footer-link ul li{
+    list-style: none;
+    padding: 10px 0px;
+}
+.footer-link ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    font-family:Nunito, sans-serif ;
+    transition: 0.5 all;
+    padding: 20px;
+}
+.footer-link ul li a:hover{
+color: #fff;
+background: #138496;
+}
+/*footer link end*/
+.footer-Newsletter{
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: 25px 0px 0px 0px;
+}
+.footer-Newsletter h2{
+    color: #17a2b8;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Handlee, cursive;
+    padding: 30px;
+}
+.footer-Newsletter form{
+    padding: 40px;
+}
+.footer-Newsletter form button{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Nunito, sans-serif;
+    margin: 0px 15px;
+    padding: 10px 20px;
+    background: #6f42c1;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.5 all;
+    margin: 20px 0px 0px 0px;
+    display: inline-block;
+}.footer-Newsletter form input{
+    padding: 15px;
+    margin: 10px 0px 0px 0px;
+}
+.footer-Newsletter form button:hover{
+    color: #fff;
+    background: #17a2b8;
 }
